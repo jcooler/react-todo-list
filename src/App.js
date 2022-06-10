@@ -63,6 +63,11 @@ const getLocalTodos = () => {
       <header>
 <h1>Jon's Todo List</h1>
       </header>
+      <div className="container">
+      <span class="react-logo">
+			<span class="nucleo"></span>
+		</span>
+    </div>
       <Form 
       inputText = {inputText}
        todos={todos}
